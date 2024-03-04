@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.headerCont{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+#emailCont{
+  color: aliceblue;
+  padding-top: 8px;
+  font-size: 18px;
+}
+.contentCont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* index styling */
+.sectionCont {
+  min-height: 85vh;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://picsum.photos/seed/picsum/1200/1300");
+  background-position: center;
+  background-size: cover;
+}
+.contentCont {
+  min-height: 45vh;
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardCont {
+  min-height: 400px;
+  margin:20px 0px 20px 0px;
+  width: 370px;
+  border-radius: 15px;
+  border: 1px solid rgb(112, 110, 110);
+  background-color: rgb(243, 245, 245);
+  box-shadow: 0 0 10px rgba(91, 90, 90, 0.2); /* Apply shadow to the border */
+}
+.postCard {
+  border: 1px solid #1e1d1d;
+  background-color: rgb(170, 190, 190);
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  width: 600px;
+  min-height: 300px;
+}
+
+.commentCard{
+background-color: rgb(34, 54, 47);
+border-radius: 20px;
+padding: 10px;
+color: aliceblue;
+margin: 10px 0px;
+}
+.commentBtn{
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgb(1, 48, 48);
+  outline: none;
+  border-radius: 15px;
+  align-items: end;
+
+}
+.userProfileCont{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* album card */
+.albumCard{
+  background-color: rgb(204, 201, 201);
+  padding: 20px;
+  margin: 20px;
+  width: 800px;
+  border-radius: 15px;
+}
+.imageBtn{
+  background-color: rgb(34, 54, 47);
+  border-radius: 20px;
+  padding: 10px;
+  color: aliceblue;
+  margin: 10px 0px; 
+}
+.imageCard{
+  width: 150px;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.imageContainer{
+  display: flex;
+}
+.imageContCss{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.image{
+  width: 100px;
+}
+.contToApplyFlex{
+  display: flex;
+  /* width: 600px; */
+  background-color: rgb(255, 148, 7);
+}
+#albumCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
